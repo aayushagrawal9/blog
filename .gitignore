@@ -25,3 +25,9 @@ package-lock.json
 # Misc
 _sass/vendors
 assets/js/dist
+
+.claude
+CLAUDE.md
+
+medium_blogs_gitignore
+_site_test
