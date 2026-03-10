@@ -120,6 +120,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   color: #505050;
   text-decoration: none;
+  margin-left: 1.5rem;
 }
 .masthead-nav-link:hover {
   color: #268bd2;
