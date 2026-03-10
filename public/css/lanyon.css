@@ -114,6 +114,24 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0;
 }
 
+.masthead-nav-link {
+  float: right;
+  font-size: 0.5em;
+  font-weight: 400;
+  color: #505050;
+  text-decoration: none;
+}
+.masthead-nav-link:hover {
+  color: #268bd2;
+}
+
+.read-more {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+  color: #268bd2;
+}
+
 @media (max-width: 48em) {
   .masthead-title {
     text-align: center;
