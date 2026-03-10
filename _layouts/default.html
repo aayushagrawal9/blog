@@ -10,15 +10,12 @@
     <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
          content to avoid any CSS collisions with our real content. -->
     <div class="wrap">
-      <div class="masthead">
-        <div class="container">
-          <h3 class="masthead-title">
-            <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
-            <a href="#" class="masthead-nav-link">About</a>
-            <a href="{{ site.baseurl }}/" class="masthead-nav-link">Home</a>
-          </h3>
+      <nav class="masthead">
+        <div class="container masthead-nav">
+          <a href="{{ site.baseurl }}/" class="masthead-nav-link">Home</a>
+          <a href="#" class="masthead-nav-link">About</a>
         </div>
-      </div>
+      </nav>
 
       <div class="container content">
         {{ content }}

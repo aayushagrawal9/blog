@@ -99,28 +99,16 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 3rem;
   border-bottom: 1px solid #eee;
 }
-.masthead-title {
-  margin-top: 0;
-  margin-bottom: 0;
-  color: #505050;
+.masthead-nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1.5rem;
 }
-.masthead-title a {
-  color: #505050;
-}
-.masthead-title small {
-  font-size: 75%;
-  font-weight: 400;
-  color: #c0c0c0;
-  letter-spacing: 0;
-}
-
 .masthead-nav-link {
-  float: right;
-  font-size: 0.5em;
+  font-size: 0.875rem;
   font-weight: 400;
   color: #505050;
   text-decoration: none;
-  margin-left: 1.5rem;
 }
 .masthead-nav-link:hover {
   color: #268bd2;
@@ -134,11 +122,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 48em) {
-  .masthead-title {
-    text-align: center;
-  }
-  .masthead-title small {
-    display: none;
+  .masthead-nav {
+    justify-content: center;
   }
 }
 
